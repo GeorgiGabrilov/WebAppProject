@@ -27,7 +27,7 @@ jobs:
       # Step 4: Build and start services using Docker Compose
       - name: Build and start Docker containers
         run: |
-          docker-compose -p WebAppStack up --build -d
+          docker-compose -p webapp up --build -d
 
       # Step 5: Wait for the Flask application to be ready
       - name: Wait for the application to be ready
@@ -42,4 +42,4 @@ jobs:
       # Step 7: Clean up by shutting down the Docker Compose stack
       - name: Shut down Docker Compose
         run: |
-          docker-compose -p WebAppStack down
+          docker-compose -p webapp down
