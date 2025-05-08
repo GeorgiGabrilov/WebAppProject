@@ -1,0 +1,26 @@
+version: '3'
+services:
+  web:
+    container_name: flask-app
+    build: .
+    ports:
+      - "8000:5000"   # Mapping port 8000 of the host to port 5000 in the container
+    depends_on:
+      - redis         # Ensuring the Redis service starts before the Flask app
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  redis:
+    container_name: redis
+    image: redis:alpine  # Using Redis alpine image
+    volumes:
+      - redis_data:/data  # Ensuring data persists across container restarts
+
+volumes:
+  redis_data:  # Defining a volume to persist Redis data
