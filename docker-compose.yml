@@ -18,7 +18,7 @@ services:
 
   redis:
     container_name: redis
-    image: redis:alpine  # Using Redis alpine image
+    image: redis:alpine  # Using Redis image alpine
     volumes:
       - redis_data:/data  # Ensuring data persists across container restarts
 
