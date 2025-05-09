@@ -1,8 +1,8 @@
-# WebAppProject
+## WebAppProject
 
 This is a simple web application built with Flask, Redis, and Docker, following DevOps principles. The app features a visit counter that is stored in Redis and a health check endpoint to ensure proper connection to Redis.
 
-## Project Structure
+### Project Structure
 ├── .github/
 │ └── workflows/
 │ └── test.yml # GitHub Actions workflow file
@@ -14,12 +14,12 @@ This is a simple web application built with Flask, Redis, and Docker, following 
 └── README.md # Project documentation
 
 
-## Setup and Run Locally
+### Setup and Run Locally
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/WebAppProject.git
+   git clone https://github.com/GeorgiGabrilov/WebAppProject.git
    cd WebAppProject
 
 2. Docker-compose up --build
@@ -29,7 +29,7 @@ This is a simple web application built with Flask, Redis, and Docker, following 
 
    This repository includes a GitHub Actions workflow for testing the application , the workflow runs on every pull request to the main branch. It checks that the app starts properly and that the /health endpoint responds with a 200 status code.
 
-## Technologies Used
+### Technologies Used
 Flask (Python)
 
 Redis
