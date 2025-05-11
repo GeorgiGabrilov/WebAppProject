@@ -27,7 +27,9 @@ This is a simple web application built with Flask, Redis, and Docker, following 
    cd WebAppProject
    ```
    ```bash
-###2. Docker-compose up --build
+###2 Build and run container
+  ```bash
+  docker-compose up --build
    ```
 
 ###3. Access the web app 
