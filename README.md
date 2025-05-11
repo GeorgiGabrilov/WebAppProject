@@ -23,8 +23,9 @@ This is a simple web application built with Flask, Redis, and Docker, following 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/GeorgiGabrilov/WebAppProject.git
-   cd WebAppProject
+   cd "folder path where you want the repo to be downloaded"
+git clone https://github.com/GeorgiGabrilov/WebAppProject.git
+cd WebAppProject
    ```
 
 1. Build and run container
