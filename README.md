@@ -33,13 +33,15 @@ This is a simple web application built with Flask, Redis, and Docker, following 
     docker-compose up --build
     
 
-###3. Access the web app 
-    ```
-    visit http://localhost:8000 in your browser.
-    Health check http://localhost:8000/health
+###3. Access the web app
 
-   This repository includes a GitHub Actions workflow for testing the application , the workflow runs on every pull request to the main branch. It checks that the app starts properly and that the /health endpoint responds with a 200 status code.
-    ```
+     ```
+     visit http://localhost:8000 in your browser.
+     Health check http://localhost:8000/health
+   This repository includes a GitHub Actions workflow for testing the application , the workflow runs on every pull request to the main branch. It checks that the 
+   app starts properly and that the /health endpoint responds with a 200 status code.
+     
+     ```
 
 ### Technologies Used
 Flask (Python)
