@@ -2,16 +2,20 @@
 
 This is a simple web application built with Flask, Redis, and Docker, following DevOps principles. The app features a visit counter that is stored in Redis and a health check endpoint to ensure proper connection to Redis.
 
-#### Project Structure
+## 📁 Project Structure
+
+```
+.
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
 ├── .github/
-│ └── workflows/
-│ └── test.yml # GitHub Actions workflow file
-├── app.py # Flask application code
-├── requirements.txt # Python dependencies
-├── Dockerfile # Docker configuration for Flask app
-├── docker-compose.yml # Docker Compose configuration
-├── .gitignore # Files to be excluded from Git
-└── README.md # Project documentation
+│   └── workflows/
+│       └── test.yml
+└── README.md
+
+```
 
 
 #### Setup and Run Locally
