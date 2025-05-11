@@ -39,8 +39,9 @@ This is a simple web application built with Flask, Redis, and Docker, following 
     Health check http://localhost:8000/health
 
    This repository includes a GitHub Actions workflow for testing the application , the workflow runs on every pull request to the main branch. It checks that the app starts properly and that the /health endpoint responds with a 200 status code.
+    ```
 
-#### Technologies Used
+### Technologies Used
 Flask (Python)
 
 Redis
