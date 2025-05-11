@@ -56,5 +56,5 @@ This ensures that every push or pull request is verified with automated tests.
 * Docker Compose
 * GitHub Actions  
   
-This README provides all the necessary information on setting up, running, and testing the application. It also mentions the technologies used in the project. You can edit it with your actual GitHub username where required.
+This README provides all the necessary information on setting up, running, and testing the application. It also mentions the technologies used in the project.
  
