@@ -29,9 +29,9 @@ This is a simple web application built with Flask, Redis, and Docker, following 
    
 ###2. Build and run container
 
-    ```
+    
     docker-compose up --build
-    ```
+    
 
 ###3. Access the web app 
    ---
