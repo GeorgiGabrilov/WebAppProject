@@ -18,17 +18,20 @@ This is a simple web application built with Flask, Redis, and Docker, following 
 ```
 
 
-#### Setup and Run Locally
+## Setup Instructions and Run Locally
 
-1. Clone the repository:
+###1. Clone the repository:
 
    ```bash
    git clone https://github.com/GeorgiGabrilov/WebAppProject.git
    cd WebAppProject
+   ```
+   ```bash
+###2. Docker-compose up --build
+   ```
 
-2. Docker-compose up --build
-
-3. Access the web app by visiting http://localhost:8000 in your browser.
+###3. Access the web app 
+   visit http://localhost:8000 in your browser.
    Health check http://localhost:8000/health
 
    This repository includes a GitHub Actions workflow for testing the application , the workflow runs on every pull request to the main branch. It checks that the app starts properly and that the /health endpoint responds with a 200 status code.
