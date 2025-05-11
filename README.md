@@ -42,10 +42,10 @@ This repository includes a GitHub Actions workflow for testing the application ,
 ## GitHub Actions CI
  A GitHub Actions workflow is configured to automatically:
 
-- Set up Python
+- Set up Python and Docker
 - Install dependencies
-- Run a basic test to check the `/health` endpoint (optional based on project scale)
-
+- Run a basic test to check to test the application.
+  
 This ensures that every push or pull request is verified with automated tests.
 
 ### Technologies Used
