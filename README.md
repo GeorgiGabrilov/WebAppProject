@@ -39,6 +39,15 @@ This is a simple web application built with Flask, Redis, and Docker, following 
 
 This repository includes a GitHub Actions workflow for testing the application , the workflow runs on every pull request to the main branch. It checks that the app starts properly and that the /health endpoint responds with a 200 status code.
 
+## GitHub Actions CI
+ A GitHub Actions workflow is configured to automatically:
+
+- Set up Python
+- Install dependencies
+- Run a basic test to check the `/health` endpoint (optional based on project scale)
+
+This ensures that every push or pull request is verified with automated tests.
+
 ### Technologies Used
 
 * Flask (Python)
