@@ -26,11 +26,12 @@ This is a simple web application built with Flask, Redis, and Docker, following 
    git clone https://github.com/GeorgiGabrilov/WebAppProject.git
    cd WebAppProject
    ```
-   ```bash
-###2 Build and run container
-  ```bash
-  docker-compose up --build
-   ```
+   
+###2. Build and run container
+
+    ```bash
+    docker-compose up --build
+    ```
 
 ###3. Access the web app 
    visit http://localhost:8000 in your browser.
